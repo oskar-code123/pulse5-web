@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pulse5 – Support & Hilfe</title>
+<meta name="description" content="Pulse5 – Verbinde dich jeden Tag mit 5 Menschen im echten Leben. Support, Hilfe und FAQ.">
+<style>
+  :root{
+    --pink:#ff3b7c;
+    --coral:#ff6c5a;
+    --purple:#7c3aed;
+    --cyan:#00c9ff;
+    --bg:#0b0b12;
+    --card:rgba(255,255,255,.04);
+    --border:rgba(255,255,255,.08);
+    --muted:#9aa0b4;
+    --text:#f2f3f9;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Rounded","SF Pro",Segoe UI,Roboto,system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+  body{background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(255,59,124,.18), transparent 60%),
+    radial-gradient(1000px 500px at -10% 20%, rgba(124,58,237,.18), transparent 60%),
+    var(--bg);
+    min-height:100vh;
+  }
+  .wrap{max-width:780px;margin:0 auto;padding:56px 22px 80px}
+  header{display:flex;align-items:center;gap:14px;margin-bottom:32px}
+  .logo{width:58px;height:58px;border-radius:16px;background:linear-gradient(135deg,var(--pink),var(--coral),var(--purple));display:grid;place-items:center;box-shadow:0 12px 32px rgba(255,59,124,.35)}
+  .logo svg{width:32px;height:32px;color:#fff}
+  h1{font-size:30px;font-weight:900;letter-spacing:-.02em}
+  h2{font-size:20px;font-weight:800;margin:28px 0 10px;letter-spacing:-.01em}
+  h3{font-size:16px;font-weight:800;margin:18px 0 6px;color:#fff}
+  p,li{color:#dcdeec;font-size:15px}
+  a{color:#ff93b6;text-decoration:none}
+  a:hover{text-decoration:underline}
+  .tagline{color:var(--muted);font-size:15px;margin-top:2px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px 24px;margin:18px 0;backdrop-filter:blur(20px)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+  @media(max-width:640px){.grid{grid-template-columns:1fr}}
+  ul{padding-left:18px;margin:6px 0}
+  li{margin:4px 0}
+  .cta{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--pink),var(--coral));color:#fff;padding:12px 20px;border-radius:12px;font-weight:800;font-size:15px;margin-top:10px}
+  .cta:hover{text-decoration:none;opacity:.95}
+  footer{border-top:1px solid var(--border);margin-top:48px;padding-top:22px;color:var(--muted);font-size:13px;text-align:center}
+  .nav{margin-top:10px}
+  .nav a{margin-right:14px;font-weight:700;color:#fff;opacity:.85}
+  .faq dt{font-weight:800;margin-top:14px;color:#fff}
+  .faq dd{margin:4px 0 0 0;color:#dcdeec}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8Z"/>
+        </svg>
+      </div>
+      <div>
+        <h1>Pulse5</h1>
+        <div class="tagline">Jeden Tag 5 echte Verbindungen.</div>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <a href="index.html">Support</a>
+      <a href="privacy.html">Datenschutz</a>
+      <a href="terms.html">Nutzungsbedingungen</a>
+      <a href="imprint.html">Impressum</a>
+    </nav>
+
+    <div class="card">
+      <h2>Hilfe & Support</h2>
+      <p>Pulse5 ist eine iOS-App, die dich daran erinnert, dich täglich mit 5 Menschen aus deinem Umfeld im echten Leben zu verbinden. Alle Daten bleiben auf deinem Gerät. Es gibt keinen Server, kein Nutzerkonto, keine Werbung.</p>
+      <p style="margin-top:10px">Du brauchst Hilfe, hast einen Bug entdeckt oder möchtest ein Feature vorschlagen? Schreib uns direkt:</p>
+      <a class="cta" href="mailto:stenzel.oskar@gmail.com?subject=Pulse5%20Support">E-Mail an den Support</a>
+      <p style="margin-top:14px;color:var(--muted);font-size:13px">Du kannst uns Feedback auch direkt in der App senden: Einstellungen &rarr; „Feedback senden".</p>
+    </div>
+
+    <h2>Häufige Fragen</h2>
+
+    <div class="card faq">
+      <dl>
+        <dt>Brauche ich ein Benutzerkonto?</dt>
+        <dd>Nein. Pulse5 funktioniert komplett ohne Registrierung, ohne E-Mail-Adresse und ohne Passwort. Du startest die App, wählst einen Nickname – fertig.</dd>
+
+        <dt>Werden meine Daten irgendwo hochgeladen?</dt>
+        <dd>Nein. Alle Daten bleiben ausschließlich auf deinem iPhone. Es gibt keinen eigenen Server, keine Cloud-Synchronisation und keinerlei Analytics. Der Austausch zwischen zwei Geräten läuft direkt über Apples MultipeerConnectivity-Framework (Bluetooth/WLAN).</dd>
+
+        <dt>Wie funktioniert eine Verbindung?</dt>
+        <dd>Öffne Pulse5 neben einer anderen Person, die ebenfalls Pulse5 nutzt. Die App erkennt beide Geräte über WLAN/Bluetooth, ihr bestätigt die Verbindung gegenseitig per Tap. Dein tägliches Ziel: 5 bestätigte Verbindungen.</dd>
+
+        <dt>Was bringt mir Pulse5 Pro?</dt>
+        <dd>Pulse5 Pro schaltet einmalig für 2,99 € die interaktive Heat-Map- und Karten-Ansicht aller deiner Begegnungen frei – inklusive Filter nach Zeitraum und Personen. Der Kauf ist einmalig, kein Abo.</dd>
+
+        <dt>Mein Pro-Kauf wird nach einem neuen iPhone nicht angezeigt.</dt>
+        <dd>Öffne Einstellungen &rarr; „Pulse5 Pro" und tippe auf „Kauf wiederherstellen". Der Kauf ist an deine Apple-ID gebunden und kann auf allen deinen Geräten wiederhergestellt werden.</dd>
+
+        <dt>Wie kann ich meine Daten löschen?</dt>
+        <dd>Über Einstellungen &rarr; „Profil zurücksetzen" werden alle Profil-Angaben gelöscht. Für eine vollständige Löschung aller Daten (inkl. Verbindungen, Belohnungen, Streak) deinstalliere die App – iOS entfernt dabei alle App-Daten unwiderruflich.</dd>
+
+        <dt>Ich sehe keine anderen Pulse5-Nutzer in der Nähe.</dt>
+        <dd>Prüfe, ob Bluetooth und WLAN aktiv sind und Pulse5 in den iOS-Einstellungen die Berechtigung für „Lokales Netzwerk" und „Bluetooth" hat. Beide Geräte müssen die App geöffnet haben und sich in unmittelbarer Nähe befinden.</dd>
+
+        <dt>Werden meine Standortdaten übertragen?</dt>
+        <dd>Nein. Die Standort-Funktion ist standardmäßig ausgeschaltet. Wenn du sie aktivierst, wird der Ort einer Begegnung ausschließlich lokal auf deinem Gerät gespeichert – niemals an uns, niemals an die andere Person.</dd>
+      </dl>
+    </div>
+
+    <div class="grid">
+      <a class="card" href="privacy.html" style="display:block;text-decoration:none;color:inherit">
+        <h3>🔒 Datenschutz</h3>
+        <p style="color:var(--muted);font-size:14px">Wie Pulse5 mit deinen Daten umgeht.</p>
+      </a>
+      <a class="card" href="terms.html" style="display:block;text-decoration:none;color:inherit">
+        <h3>📄 Nutzungsbedingungen</h3>
+        <p style="color:var(--muted);font-size:14px">Die Regeln für die Nutzung von Pulse5.</p>
+      </a>
+    </div>
+
+    <footer>
+      &copy; 2026 Oskar Stenzel · <a href="imprint.html">Impressum</a> · <a href="mailto:stenzel.oskar@gmail.com">Kontakt</a>
+    </footer>
+  </div>
+</body>
+</html>
